@@ -8,11 +8,13 @@ icon: 'server'
 
 ## Installation
 
+For an NVIDIA CUDA setup, install Swarms and vLLM:
+
 ```bash
 pip install -U swarms vllm
 ```
 
-vLLM requires a CUDA-capable GPU. For Apple Silicon or CPU-only systems, use [Ollama](/examples/model-providers/ollama) instead.
+vLLM also supports other hardware, including AMD GPUs, Intel GPUs, and CPUs. Follow the [vLLM installation guide](https://docs.vllm.ai/en/stable/getting_started/installation/) for your platform's requirements and installation steps. You can also use [Ollama](/examples/model-providers/ollama) for local inference.
 
 ## Two Ways to Use vLLM
 
